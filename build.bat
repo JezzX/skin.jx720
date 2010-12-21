@@ -20,6 +20,7 @@ ECHO Building Skin Directory...
 xcopy "720p" "BUILD\skin.jx720\720p" /E /Q /I /Y /EXCLUDE:exclude.txt
 xcopy "fonts" "BUILD\skin.jx720\fonts" /E /Q /I /Y /EXCLUDE:exclude.txt
 xcopy "backgrounds" "BUILD\skin.jx720\backgrounds" /E /Q /I /Y /EXCLUDE:exclude.txt
+xcopy "button_icons" "BUILD\skin.jx720\button_icons" /E /Q /I /Y /EXCLUDE:exclude.txt
 xcopy "sounds\*.*" "BUILD\skin.jx720\sounds\" /Q /I /Y /EXCLUDE:exclude.txt
 xcopy "colors\*.*" "BUILD\skin.jx720\colors\" /Q /I /Y /EXCLUDE:exclude.txt
 xcopy "language" "BUILD\skin.jx720\language" /E /Q /I /Y /EXCLUDE:exclude.txt
