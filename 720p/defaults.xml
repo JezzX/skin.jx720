@@ -128,6 +128,19 @@
 		<aligny>center</aligny>
 		<pulseonselect>no</pulseonselect>
 	</default>
+	<default type="edit">
+		<description>Name Button</description>
+		<posx>0</posx>
+		<posy>0</posy>
+		<width>300</width>
+		<height>45</height>
+		<label>-</label>
+		<textcolor>white</textcolor>
+		<disabledcolor>disabled</disabledcolor>
+		<font>font12</font>
+		<texturefocus>button-focus.png</texturefocus>
+		<texturenofocus>button-nofocus.png</texturenofocus>
+	</default>
 	<default type="slider">
 		<texturesliderbar>osd_slider_bg.png</texturesliderbar>
 		<textureslidernib>slider_nibFO.png</textureslidernib>
