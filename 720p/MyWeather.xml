@@ -181,14 +181,14 @@
 					<include>WeatherButtonHighlightCommonValues</include>
 				</control>
 				<control type="radiobutton" id="99">
-					<description>Forcast/Current Highlight Button</description>
+					<description>Forecast/Current Highlight Button</description>
 					<posy>52</posy>
 					<label>31022</label>
-					<altlabel>Current</altlabel>
+					<altlabel>31026</altlabel>
 					<texturefocus>special://skin/button_icons/icon-weather.png</texturefocus>
 					<texturenofocus>special://skin/button_icons/icon-weather.png</texturenofocus>
-					<selected>Skin.HasSetting(WeatherUseForcast)</selected>
-					<onclick>Skin.ToggleSetting(WeatherUseForcast)</onclick>
+					<selected>Skin.HasSetting(WeatherUseForecast)</selected>
+					<onclick>Skin.ToggleSetting(WeatherUseForecast)</onclick>
 					<radioposx>265</radioposx>
 					<onup>3</onup>
 					<ondown>2</ondown>
@@ -245,7 +245,7 @@
 			<control type="group">
 				<posx>340</posx>
 				<posy>110</posy>
-				<visible>!Skin.HasSetting(WeatherUseForcast)</visible>
+				<visible>!Skin.HasSetting(WeatherUseForecast)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
 					<description>weather location label</description>
@@ -476,7 +476,7 @@
 			<control type="group">
 				<posx>340</posx>
 				<posy>140</posy>
-				<visible>Skin.HasSetting(WeatherUseForcast)</visible>
+				<visible>Skin.HasSetting(WeatherUseForecast)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
 					<description>weather location label</description>

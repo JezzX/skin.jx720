@@ -13,16 +13,17 @@
   <string id="31010">Media</string>
   <string id="31011">Applications</string>
   <string id="31012">System Settings</string>
-  <string id="31013">Weather Forcast</string>
+  <string id="31013">Weather Forecast</string>
   <string id="31014">Video Bookmarks</string>
 
   <!-- Extra Main Home Labels  -->
   <string id="31020">Weather Conditions</string>
   <string id="31021">Current Temp</string>
-  <string id="31022">Forcast</string>
+  <string id="31022">Forecast</string>
   <string id="31023">Updated :</string>
   <string id="31024">Current Temperature</string>
   <string id="31025">Add-on manager</string>
+  <string id="31026">Current</string>
 
   <!-- Extra Sub Page Labels  -->
   <string id="31100">Video - Files</string>
