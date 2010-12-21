@@ -250,7 +250,7 @@
 							<visible>!Skin.HasSetting(AppsBlade_HidePrograms)</visible>
 						</item>
 						<item>
-							<label>24001</label>
+							<label>31025</label>
 							<onclick>ActivateWindow(AddonBrowser)</onclick>
 							<icon>special://skin/button_icons/icon-addon.png</icon>
 							<thumb>-</thumb>

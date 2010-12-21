@@ -5,6 +5,7 @@
   <string id="31002">apps</string>
   <string id="31003">system</string>
   <string id="31004">weather</string>
+
   <string id="31005">Apps</string>
   <string id="31006">Media</string>
 
@@ -21,6 +22,7 @@
   <string id="31022">Forcast</string>
   <string id="31023">Updated :</string>
   <string id="31024">Current Temperature</string>
+  <string id="31025">Add-on manager</string>
 
   <!-- Extra Sub Page Labels  -->
   <string id="31100">Video - Files</string>
