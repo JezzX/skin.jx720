@@ -214,7 +214,7 @@
 							<label>1213</label>
 							<label2>31410</label2>
 							<onclick>ActivateWindow(PicturesSettings)</onclick>
-							<icon>special://skin/button_icons/icon-videos.png</icon>
+							<icon>special://skin/button_icons/icon-pictures.png</icon>
 							<thumb>-</thumb>
 						</item>
 						<item>
