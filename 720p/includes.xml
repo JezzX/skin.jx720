@@ -555,19 +555,13 @@
 				</control>
 				<control type="image">
 					<description>DVD Cover</description>
-					<posx>140r</posx>
+					<posx>160r</posx>
 					<posy>190r</posy>
-					<width>127</width>
+					<width>157</width>
 					<height>175</height>
 					<texture>$INFO[VideoPlayer.Cover]</texture>
-				</control>
-				<control type="image">
-					<description>Video DVD Cover Case Overlay</description>
-					<posx>160r</posx>
-					<posy>200r</posy>
-					<width>155</width>
-					<height>200</height>
-					<texture>dvd-overlay.png</texture>
+					<bordertexture border="19,3,19,3">thumb-border.png</bordertexture>
+					<bordersize>17,1,17,1</bordersize>
 				</control>
 				<control type="group">
 					<posx>680</posx>
@@ -639,14 +633,14 @@
 				</control>
 				<control type="image">
 					<description>Video Cover</description>
-					<posx>215r</posx>
-					<posy>135r</posy>
-					<width>215</width>
+					<posx>230r</posx>
+					<posy>145r</posy>
+					<width>230</width>
 					<height>135</height>
 					<aspectratio>keep</aspectratio>
 					<texture>$INFO[VideoPlayer.Cover]</texture>
-					<bordersize>1,1,13,13</bordersize>
-					<bordertexture border="1,1,13,13">thumb-border.png</bordertexture>
+					<bordertexture border="19,3,19,3">thumb-border.png</bordertexture>
+					<bordersize>17,1,17,1</bordersize>
 				</control>
 				<control type="group">
 					<posx>620</posx>
