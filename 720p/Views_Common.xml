@@ -56,9 +56,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<selectedcolor>orange</selectedcolor>
-					<shadowcolor>black</shadowcolor>
 					<align>left</align>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
 					<posx>605</posx>
@@ -69,9 +68,8 @@
 					<aligny>center</aligny>
 					<textcolor>black</textcolor>
 					<selectedcolor>orange</selectedcolor>
-					<shadowcolor>black</shadowcolor>
 					<align>right</align>
-					<info>ListItem.Label2</info>
+					<label>$INFO[ListItem.Label2]</label>
 				</control>
 			</focusedlayout>
 		</control>
@@ -143,7 +141,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>150</posx>
@@ -181,7 +179,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>150</posx>
@@ -221,7 +219,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>125</posx>
@@ -261,7 +259,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>125</posx>
@@ -316,7 +314,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
 					<posx>500</posx>
@@ -328,7 +326,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>right</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label2</info>
+					<label>$INFO[ListItem.Label2]</label>
 				</control>
 				<control type="image">
 					<posx>485</posx>
@@ -366,7 +364,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
 					<posx>500</posx>
@@ -378,7 +376,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>right</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label2</info>
+					<label>$INFO[ListItem.Label2]</label>
 				</control>
 				<control type="image">
 					<posx>485</posx>
@@ -524,7 +522,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>150</posx>
@@ -562,7 +560,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>150</posx>
@@ -602,7 +600,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>125</posx>
@@ -642,7 +640,7 @@
 					<selectedcolor>orange</selectedcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
 					<posx>125</posx>
