@@ -134,6 +134,7 @@
 		<posy>0</posy>
 		<width>300</width>
 		<height>45</height>
+		<textoffsetx>15</textoffsetx>
 		<label>-</label>
 		<textcolor>white</textcolor>
 		<disabledcolor>disabled</disabledcolor>
