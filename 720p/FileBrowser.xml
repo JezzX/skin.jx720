@@ -29,6 +29,7 @@
 				<height>800</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-right.png</texture>
+				<animation effect="fade" start="90" end="90" time="0" condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">conditional</animation>
 			</control>
 			<control type="image">
 				<posx>310</posx>
@@ -37,6 +38,7 @@
 				<height>800</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-right-edge.png</texture>
+				<animation effect="fade" start="90" end="90" time="0" condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">conditional</animation>
 			</control>
 			<control type="label" id="411">
 				<description>Header label</description>
