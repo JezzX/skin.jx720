@@ -148,6 +148,7 @@
 		<textureslidernibfocus>slider_nibFO.png</textureslidernibfocus>
 	</default>
 	<default type="sliderex">
+		<textcolor>white</textcolor>
 		<disabledcolor>disabled</disabledcolor>
 		<textoffsetx>15</textoffsetx>
 		<texturesliderbar>osd_slider_bg.png</texturesliderbar>
