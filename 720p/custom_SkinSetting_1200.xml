@@ -152,6 +152,21 @@
 						<onclick>Skin.ToggleSetting(Back_Fanart)</onclick>
 						<selected>!Skin.HasSetting(Back_Fanart)</selected>
 					</control>
+					<control type="radiobutton" id="104">
+						<height>45</height>
+						<width>790</width>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>black</focusedcolor>
+						<texturefocus border="10">list-focus.png</texturefocus>
+						<texturenofocus>-</texturenofocus>
+						<textoffsetx>10</textoffsetx>
+						<radioposx>750</radioposx>
+						<pulseonselect>no</pulseonselect>
+						<label>31523</label>
+						<onclick>Skin.ToggleSetting(HideRainDrops)</onclick>
+						<selected>Skin.HasSetting(HideRainDrops)</selected>
+					</control>
 				</control>
 
 				<control type="grouplist" id="200">

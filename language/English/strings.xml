@@ -91,6 +91,7 @@
   <string id="31520">Show now playing video in the background</string>
   <string id="31521">Show music visualization in the background</string>
   <string id="31522">Show media specific fanart in the background</string>
+  <string id="31523">Hide rain drop animation in the background</string>
 
   <string id="31540">Set Default Lyric fetching add-on for Music OSD</string>
   <string id="31541">Set Default Subtitle fetching add-on for Video OSD</string>

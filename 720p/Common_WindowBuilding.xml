@@ -28,6 +28,87 @@
 			<animation effect="fade" start="100" end="0" time="HomeBladeAnimationSpeed">WindowClose</animation>
 		</control>
 	</include>
+	<include name="RainDropAnimationBackground">
+		<control type="group">
+			<visible>!Skin.HasSetting(HideRainDrops)</visible>
+			<visible>[!Skin.HasSetting(Back_Fanart) + IsEmpty(ListItem.Property(Fanart_Image))] + ![Player.HasVideo + !Skin.HasSetting(Back_Video)] + ![Player.HasAudio + !Skin.HasSetting(Back_Vis)]</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="image">
+				<description>Raindrop 5 animation</description>
+				<posx>200</posx>
+				<posy>150</posy>
+				<width>128</width>
+				<height>128</height>
+				<texture background="true">rain-drop.png</texture>
+				<visible>true</visible>
+				<colordiffuse>BBFFFFFF</colordiffuse>
+				<animation type="conditional" reversible="false" loop="true" condition="true">
+					<effect type="fade" delay="2000" start="0" end="100" time="200"/>
+					<effect type="fade" delay="2500" start="100" end="0" time="500"/>
+					<effect type="zoom" delay="2000" start="30" end="500" time="1000" center="auto" tween="quadratic"/>
+				</animation>
+			</control>
+			<control type="image">
+				<description>Raindrop 1 animation</description>
+				<posx>550</posx>
+				<posy>200</posy>
+				<width>128</width>
+				<height>128</height>
+				<texture background="true">rain-drop.png</texture>
+				<visible>true</visible>
+				<colordiffuse>55FFFFFF</colordiffuse>
+				<animation type="conditional" reversible="false" loop="true" condition="true">
+					<effect type="fade" start="0" end="100" time="200"/>
+					<effect type="fade" start="100" end="0" delay="2500" time="1000"/>
+					<effect type="zoom" center="auto" start="30" end="1500" delay="0" time="3500" tween="quadratic"/>
+				</animation>
+			</control>
+			<control type="image">
+				<description>Raindrop 2 animation</description>
+				<posx>900</posx>
+				<posy>130</posy>
+				<width>128</width>
+				<height>128</height>
+				<texture background="true">rain-drop.png</texture>
+				<visible>true</visible>
+				<animation type="conditional" reversible="false" loop="true" condition="true">
+					<effect type="fade" delay="400" start="0" end="100" time="200"/>
+					<effect type="fade" delay="1000" start="100" end="0" time="1600"/>
+					<effect type="zoom" delay="400" start="30" end="700" time="3000" center="auto" tween="quadratic"/>
+				</animation>
+			</control>
+			<control type="image">
+				<description>Raindrop 3 animation</description>
+				<posx>800</posx>
+				<posy>500</posy>
+				<width>128</width>
+				<height>128</height>
+				<texture background="true">rain-drop.png</texture>
+				<visible>true</visible>
+				<colordiffuse>88FFFFFF</colordiffuse>
+				<animation type="conditional" reversible="false" loop="true" condition="true">
+					<effect type="fade" delay="800" start="0" end="100" time="200"/>
+					<effect type="fade" delay="2400" start="100" end="0" time="2000"/>
+					<effect type="zoom" delay="800" start="30" end="1000" time="2500" center="auto" tween="quadratic"/>
+				</animation>
+			</control>
+			<control type="image">
+				<description>Raindrop 4 animation</description>
+				<posx>200</posx>
+				<posy>450</posy>
+				<width>128</width>
+				<height>128</height>
+				<texture background="true">rain-drop.png</texture>
+				<visible>true</visible>
+				<colordiffuse>66FFFFFF</colordiffuse>
+				<animation type="conditional" reversible="false" loop="true" condition="true">
+					<effect type="fade" delay="1500" start="0" end="100" time="200"/>
+					<effect type="fade" delay="2100" start="100" end="0" time="400"/>
+					<effect type="zoom" delay="1500" start="30" end="1200" time="2000" center="auto" tween="quadratic"/>
+				</animation>
+			</control>
+		</control>
+	</include>
 	<include name="CommonWeatherBackground">
 		<control type="image">
 			<description>Background Weather</description>
@@ -38,6 +119,7 @@
 			<texture background="true" fallback="special://skin/backgrounds/weather.png">$INFO[Skin.String(Background_Weather)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
+		<include>RainDropAnimationBackground</include>
 	</include>
 	<include name="CommonAppsBackground">
 		<control type="image">
@@ -49,6 +131,7 @@
 			<texture background="true" fallback="special://skin/backgrounds/apps.png">$INFO[Skin.String(Background_Apps)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
+		<include>RainDropAnimationBackground</include>
 	</include>
 	<include name="CommonMediaBackground">
 		<control type="image">
@@ -60,6 +143,7 @@
 			<texture background="true" fallback="special://skin/backgrounds/media.png">$INFO[Skin.String(Background_Media)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
+		<include>RainDropAnimationBackground</include>
 	</include>
 	<include name="CommonSystemBackground">
 		<control type="image">
@@ -71,6 +155,7 @@
 			<texture background="true" fallback="special://skin/backgrounds/system.png">$INFO[Skin.String(Background_System)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
+		<include>RainDropAnimationBackground</include>
 	</include>
 
 <!-- Blackwash Backgrounds -->
