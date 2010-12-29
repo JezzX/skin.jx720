@@ -274,6 +274,19 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>gamecard_home-silver.png</texture>
 		</control>
+		<control type="image">
+			<description>Button shine animation</description>
+			<posx>0</posx>
+			<posy>12</posy>
+			<width>60</width>
+			<height>32</height>
+			<texture>shine-animation.png</texture>
+			<animation type="conditional" reversible="false" condition="true" loop="true">
+				<effect type="fade" delay="5000" start="0" end="100" time="700"/>
+				<effect type="fade" delay="5900" start="100" end="0" time="700"/>
+				<effect type="slide" delay="5000" start="0,0" end="350,0" time="1500"/>
+			</animation>
+		</control>
 		<control type="label">
 			<description>Weather label</description>
 			<posx>30</posx>
@@ -344,6 +357,19 @@
 			<height>160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>gamecard_home-silver.png</texture>
+		</control>
+		<control type="image">
+			<description>Button shine animation</description>
+			<posx>0</posx>
+			<posy>12</posy>
+			<width>60</width>
+			<height>32</height>
+			<texture>shine-animation.png</texture>
+			<animation type="conditional" reversible="false" condition="true" loop="true">
+				<effect type="fade" delay="5000" start="0" end="100" time="700"/>
+				<effect type="fade" delay="5900" start="100" end="0" time="700"/>
+				<effect type="slide" delay="5000" start="0,0" end="350,0" time="1500"/>
+			</animation>
 		</control>
 		<control type="label">
 			<description>System Info label</description>
