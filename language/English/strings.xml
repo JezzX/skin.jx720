@@ -64,15 +64,15 @@
   <string id="31312">Set Button Icon</string>
 
   <!-- Description Labels  -->
-  <string id="31400">Edit your Display settings, Including:[CR][CR]* GUI Calibration[CR]* Skin Selection[CR]* Screensaver[CR]* Date &amp; Time</string>
+  <string id="31400">Edit your Display settings, Including:[CR][CR]* Skin Selection[CR]* View Options[CR]* Screensaver[CR]* Date &amp; Time</string>
   <string id="31401">-</string>
   <string id="31402">Choose Weather Display, Including:[CR][CR]* 3 Cities[CR]* Wind Speed[CR]* Temperature</string>
-  <string id="31403">Configure Network and sharing settings, Including:[CR][CR]* Gateway &amp; DNS[CR]* Samba File Sharing[CR]* UPNP Server[CR]* Web Server[CR]* Event Server</string>
-  <string id="31404">Important System Settings, Including:[CR][CR]* Hardware[CR]* Autorun[CR]* Cacheing[CR]* Master User Locking</string>
+  <string id="31403">Configure Network and sharing settings, Including:[CR][CR]* Proxy &amp; DNS[CR]* Samba File Sharing[CR]* UPNP Server[CR]* Web Server[CR]* External App Control</string>
+  <string id="31404">Important System Settings, Including:[CR][CR]* Hardware[CR]* Power Saving[CR]* Input Devices[CR]* Master User Locking</string>
   <string id="31405">Manage User Profiles, Including:[CR][CR]* Creating Profiles[CR]* Deleting Profiles[CR]* Changing User Settings</string>
   <string id="31406">Change Skin Specific Settings, Including:[CR][CR]* Window Backgrounds[CR]* Media View Options[CR]* Other Misc Options</string>
-  <string id="31407">Display the shutdown options, Including:[CR][CR]* Shutdown System[CR]* Exit XBMC[CR]* Reboot System[CR]* Suspend System</string>
-  <string id="31408">Configure Video settings, Including:[CR][CR]* Screen Calibration[CR]* Video filters[CR]* Post Processing[CR]* File Views</string>
+  <string id="31407">-</string>
+  <string id="31408">Configure Video settings, Including:[CR][CR]* Library Options[CR]* Hardware Acceleration[CR]* Subtitles[CR]* DVD Playback</string>
   <string id="31409">Configure Audio settings, Including:[CR][CR]* Visualisations[CR]* Playlists[CR]* CD Ripping[CR]* Karaoke</string>
   <string id="31410">Arrange Pictures settings, Including:[CR][CR]* Slideshows[CR]* Thumbnails</string>
 
