@@ -230,9 +230,9 @@
 						<visible>IsEmpty(ListItem.Property(Addon.Broken))</visible>
 						<control type="label">
 							<description>Disclaimer txt</description>
-							<posx>540</posx>
-							<posy>200</posy>
-							<width>700</width>
+							<posx>200</posx>
+							<posy>540</posy>
+							<width>1040</width>
 							<height>25</height>
 							<label>$LOCALIZE[24052]</label>
 							<align>center</align>
@@ -242,7 +242,7 @@
 						</control>
 						<control type="fadelabel">
 							<description>Disclaimer Value</description>
-							<posx>540</posx>
+							<posx>200</posx>
 							<posy>565</posy>
 							<width>1040</width>
 							<height>25</height>
@@ -257,7 +257,7 @@
 					<control type="group">
 						<visible>!IsEmpty(ListItem.Property(Addon.Broken))</visible>
 						<control type="label">
-							<description>Disclaimer txt</description>
+							<description>Broken txt</description>
 							<posx>200</posx>
 							<posy>540</posy>
 							<width>1040</width>
@@ -269,7 +269,7 @@
 							<textcolor>orange</textcolor>
 						</control>
 						<control type="fadelabel">
-							<description>Disclaimer Value</description>
+							<description>Boken Value</description>
 							<posx>200</posx>
 							<posy>565</posy>
 							<width>1040</width>
