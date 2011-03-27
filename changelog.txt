@@ -1,3 +1,7 @@
+[B]Version 0.0.3[/B]
+
+- Fixed You could enter the library windows even if they had no content
+
 [B]Version 0.0.2[/B]
 
 - Added a pretty raindrop splash animation to the background using various clever animation techniques and one 128x128 image :) (on by default disable it in skin settings if you want)
