@@ -1,10 +1,11 @@
 <window id="1200">
 	<defaultcontrol always="true">3</defaultcontrol>
 	<controls>
-		<include>CommonVideoVizBackground</include>
+		<include condition="!Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
 			<include>CommonSystemBackground</include>
 		</control>
+		<include condition="Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
 			<include>CommonSystemBlackwash</include>
 		</control>
@@ -153,6 +154,21 @@
 						<selected>!Skin.HasSetting(Back_Fanart)</selected>
 					</control>
 					<control type="radiobutton" id="104">
+						<height>45</height>
+						<width>790</width>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>black</focusedcolor>
+						<texturefocus border="10">list-focus.png</texturefocus>
+						<texturenofocus>-</texturenofocus>
+						<textoffsetx>10</textoffsetx>
+						<radioposx>750</radioposx>
+						<pulseonselect>no</pulseonselect>
+						<label>31524</label>
+						<onclick>Skin.ToggleSetting(DontBlendBackground)</onclick>
+						<selected>Skin.HasSetting(DontBlendBackground)</selected>
+					</control>
+					<control type="radiobutton" id="105">
 						<height>45</height>
 						<width>790</width>
 						<font>font13</font>

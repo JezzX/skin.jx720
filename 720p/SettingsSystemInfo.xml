@@ -2,7 +2,7 @@
 	<defaultcontrol>95</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-		<include>CommonVideoVizBackground</include>
+		<include condition="!Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
 			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
 			<include>CommonSystemBackground</include>
@@ -19,6 +19,7 @@
 			<visible>Window.Previous(VideoFiles) | Window.Previous(VideoLibrary) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
 			<include>CommonMediaBackground</include>
 		</control>
+		<include condition="Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 
 		<control type="group">
 			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>

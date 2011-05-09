@@ -2,10 +2,11 @@
 	<defaultcontrol>20</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-		<include>CommonVideoVizBackground</include>
+		<include condition="!Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
 			<include>CommonAppsBackground</include>
 		</control>
+		<include condition="Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
 			<include>CommonAppsBlackwash</include>
 		</control>
