@@ -1,3 +1,9 @@
+[B]Version 1.0.0[/B]
+
+- Took the skin out of alpha and gave it a version 1.0.0
+- Added a few more codec flagging images
+- Added the option to not blend the background into fanart, visualization, video.
+
 [B]Version 0.0.3[/B]
 
 - Fixed You could enter the library windows even if they had no content
