@@ -63,6 +63,10 @@
   <string id="31311">Set Button Label</string>
   <string id="31312">Set Button Icon</string>
 
+  <!-- Skin Fontsets -->
+  <string id="31390">Skin default</string>
+  <string id="31391">Arial based (best for Non-English)</string>
+
   <!-- Description Labels  -->
   <string id="31400">Edit your Display settings, Including:[CR][CR]* Skin Selection[CR]* View Options[CR]* Screensaver[CR]* Date &amp; Time</string>
   <string id="31401">-</string>
@@ -100,4 +104,5 @@
   <string id="31550">Window default buttons</string>
   <string id="31551">Window custom smart playlist shortcuts</string>
   <string id="31552">Window custom add-on shortcuts</string>
+  
 </strings>
