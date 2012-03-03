@@ -252,7 +252,7 @@
 						</item>
 						<item>
 							<label>342</label>
-							<onclick>ActivateWindow(VideoLibrary,movietitles,return)</onclick>
+							<onclick>ActivateWindow(Videos,movietitles,return)</onclick>
 							<icon>special://skin/button_icons/icon-movies.png</icon>
 							<thumb>-</thumb>
 							<visible>Library.HasContent(Movies)</visible>
@@ -260,7 +260,7 @@
 						</item>
 						<item>
 							<label>20343</label>
-							<onclick>ActivateWindow(VideoLibrary,tvshowtitles,return)</onclick>
+							<onclick>ActivateWindow(Videos,tvshowtitles,return)</onclick>
 							<icon>special://skin/button_icons/icon-tv.png</icon>
 							<thumb>-</thumb>
 							<visible>Library.HasContent(TVShows)</visible>
@@ -268,14 +268,14 @@
 						</item>
 						<item>
 							<label>$INFO[Skin.String(MediaBlade_NameSmartPlaylist1)]</label>
-							<onclick>ActivateWindow(VideoLibrary,$INFO[Skin.String(MediaBlade_LinkSmartPlaylist1)],return)</onclick>
+							<onclick>ActivateWindow(Videos,$INFO[Skin.String(MediaBlade_LinkSmartPlaylist1)],return)</onclick>
 							<icon>special://skin/button_icons/icon-playlistvideo.png</icon>
 							<thumb>-</thumb>
 							<visible>Skin.HasSetting(MediaBlade_ShowSmartPlaylist1)</visible>
 						</item>
 						<item>
 							<label>$INFO[Skin.String(MediaBlade_NameSmartPlaylist2)]</label>
-							<onclick>ActivateWindow(VideoLibrary,$INFO[Skin.String(MediaBlade_LinkSmartPlaylist2)],return)</onclick>
+							<onclick>ActivateWindow(Videos,$INFO[Skin.String(MediaBlade_LinkSmartPlaylist2)],return)</onclick>
 							<icon>special://skin/button_icons/icon-playlistvideo.png</icon>
 							<thumb>-</thumb>
 							<visible>Skin.HasSetting(MediaBlade_ShowSmartPlaylist2)</visible>

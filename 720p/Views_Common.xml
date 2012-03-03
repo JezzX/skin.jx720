@@ -101,7 +101,7 @@
 	</include>
 	<include name="ThumbnailView">
 		<control type="panel" id="52">
-			<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows)]</visible>
+			<visible>![Window.IsVisible(Videos) + Container.Content(TVShows)]</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>1080</width>
@@ -482,7 +482,7 @@
 	</include>
 	<include name="ThumbnailInfoView">
 		<control type="panel" id="55">
-			<visible>![Window.IsVisible(VideoLibrary) + Container.Content(TVShows)]</visible>
+			<visible>![Window.IsVisible(Videos) + Container.Content(TVShows)]</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>720</width>

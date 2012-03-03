@@ -4,7 +4,7 @@
 	<controls>
 		<include condition="!Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
-			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
+			<visible>!Window.Previous(Weather) + !Window.Previous(Videos) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
 			<include>CommonSystemBackground</include>
 		</control>
 		<control type="group">
@@ -16,13 +16,13 @@
 			<include>CommonAppsBackground</include>
 		</control>
 		<control type="group">
-			<visible>Window.Previous(VideoFiles) | Window.Previous(VideoLibrary) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
+			<visible>Window.Previous(Videos) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
 			<include>CommonMediaBackground</include>
 		</control>
 		<include condition="Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 
 		<control type="group">
-			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
+			<visible>!Window.Previous(Weather) + !Window.Previous(Videos) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
 			<include>CommonSystemBlackwash</include>
 		</control>
 		<control type="group">
@@ -34,7 +34,7 @@
 			<include>CommonAppsBlackwash</include>
 		</control>
 		<control type="group">
-			<visible>Window.Previous(VideoFiles) | Window.Previous(VideoLibrary) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
+			<visible>Window.Previous(Videos) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
 			<include>CommonMediaBlackwash</include>
 		</control>
 		<control type="group">
@@ -254,7 +254,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Window.Previous(Weather) + !Window.Previous(VideoFiles) + !Window.Previous(VideoLibrary) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
+			<visible>!Window.Previous(Weather) + !Window.Previous(Videos) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
 			<include>SettingsToSubBlades</include>
 		</control>
 		<control type="group">
@@ -266,7 +266,7 @@
 			<include>AppsToSubBlades</include>
 		</control>
 		<control type="group">
-			<visible>Window.Previous(VideoFiles) | Window.Previous(VideoLibrary) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
+			<visible>Window.Previous(Videos) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
 			<include>MediaToSubBlades</include>
 		</control>
 		<include>Common_Now_Playing</include>
