@@ -818,7 +818,6 @@
 			<height>800</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
-			<visible>WindowClose</visible>
 			<animation effect="fade" start="0" end="100" time="0" delay="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
 		</control>
 		<control type="image">
