@@ -4,20 +4,12 @@
 	<controls>
 		<include condition="!Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 		<control type="group">
-			<visible>!Window.Previous(Weather) + !Window.Previous(Videos) + !Window.Previous(MusicFiles) + !Window.Previous(MusicLibrary) + !Window.Previous(Pictures) + !Window.Previous(Programs)</visible>
+			<visible>!Window.Previous(Weather)</visible>
 			<include>CommonSystemBackground</include>
 		</control>
 		<control type="group">
 			<visible>Window.Previous(Weather)</visible>
 			<include>CommonWeatherBackground</include>
-		</control>
-		<control type="group">
-			<visible>Window.Previous(Programs)</visible>
-			<include>CommonAppsBackground</include>
-		</control>
-		<control type="group">
-			<visible>Window.Previous(Videos) | Window.Previous(MusicFiles) | Window.Previous(MusicLibrary) | Window.Previous(Pictures)</visible>
-			<include>CommonMediaBackground</include>
 		</control>
 		<include condition="Skin.HasSetting(DontBlendBackground)">CommonVideoVizBackground</include>
 
