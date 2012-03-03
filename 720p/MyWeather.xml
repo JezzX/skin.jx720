@@ -243,10 +243,24 @@
 					<include>WeatherButtonCommonValues</include>
 				</control>
 			</control>
+			<control type="textbox" id="400">
+				<description>No weather warning</description>
+				<posx>440</posx>
+				<posy>210</posy>
+				<width>370</width>
+				<height>200</height>
+				<font>font12</font>
+				<label>$LOCALIZE[31313]</label>
+				<textcolor>grey</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<align>center</align>
+				<pagecontrol>-</pagecontrol>
+				<visible>IsEmpty(Weather.Plugin)</visible>
+			</control>
 			<control type="group">
 				<posx>340</posx>
 				<posy>110</posy>
-				<visible>!Skin.HasSetting(WeatherUseForecast)</visible>
+				<visible>!Skin.HasSetting(WeatherUseForecast) + !IsEmpty(Weather.Plugin)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
 					<description>weather location label</description>
@@ -259,7 +273,7 @@
 					<aligny>center</aligny>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[Weather.Location][CR]$LOCALIZE[31023] $INFO[Control.GetLabel(11)]</label>
+					<label>$INFO[Window.Property(Location)][CR]$LOCALIZE[31023] $INFO[Control.GetLabel(11)]</label>
 				</control>
 				<control type="label" id="11">
 					<description>update time label</description>
@@ -477,7 +491,7 @@
 			<control type="group">
 				<posx>340</posx>
 				<posy>140</posy>
-				<visible>Skin.HasSetting(WeatherUseForecast)</visible>
+				<visible>Skin.HasSetting(WeatherUseForecast) + !IsEmpty(Weather.Plugin)</visible>
 				<include>VisibleFadeEffect</include>
 				<control type="label">
 					<description>weather location label</description>
@@ -490,7 +504,7 @@
 					<aligny>center</aligny>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[Weather.Location]</label>
+					<label>$INFO[Window.Property(Location)]</label>
 				</control>
 				<control type="image">
 					<description>Divider</description>

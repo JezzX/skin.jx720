@@ -299,53 +299,70 @@
 			<textcolor>grey</textcolor>
 			<label>31020</label>
 		</control>
-		<control type="image">
-			<description>Weather image</description>
+		<control type="textbox" id="400">
+			<description>No weather warning</description>
 			<posx>30</posx>
 			<posy>50</posy>
-			<width>80</width>
+			<width>370</width>
 			<height>80</height>
-			<aspectratio>keep</aspectratio>
-			<texture>$INFO[Weather.Conditions]</texture>
-		</control>
-		<control type="label">
-			<description>Temp Label</description>
-			<posx>120</posx>
-			<posy>50</posy>
-			<height>30</height>
-			<width>150</width>
-			<label>$LOCALIZE[31021]</label>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font12</font>
-			<textcolor>white2</textcolor>
+			<font>font10</font>
+			<label>$LOCALIZE[31313]</label>
+			<textcolor>grey</textcolor>
 			<shadowcolor>black</shadowcolor>
+			<align>center</align>
+			<pagecontrol>-</pagecontrol>
+			<visible>IsEmpty(Weather.Plugin)</visible>
 		</control>
-		<control type="label">
-			<description>Temp Value</description>
-			<posx>380</posx>
-			<posy>55</posy>
-			<height>30</height>
-			<width>110</width>
-			<label>$INFO[Weather.Temperature]</label>
-			<align>right</align>
-			<aligny>center</aligny>
-			<font>font35</font>
-			<textcolor>white2</textcolor>
-			<shadowcolor>black</shadowcolor>
-		</control>
-		<control type="label">
-			<description>Conditions Label</description>
-			<posx>120</posx>
-			<posy>85</posy>
-			<height>30</height>
-			<width>290</width>
-			<label>$INFO[Weather.Conditions]</label>
-			<align>left</align>
-			<aligny>center</aligny>
-			<font>font12</font>
-			<textcolor>white2</textcolor>
-			<shadowcolor>black</shadowcolor>
+		<control type="group">
+			<visible>!IsEmpty(Weather.Plugin)</visible>
+			<control type="image">
+				<description>Weather image</description>
+				<posx>30</posx>
+				<posy>50</posy>
+				<width>80</width>
+				<height>80</height>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
+			</control>
+			<control type="label">
+				<description>Temp Label</description>
+				<posx>120</posx>
+				<posy>50</posy>
+				<height>30</height>
+				<width>150</width>
+				<label>$LOCALIZE[31021]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>white2</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<description>Temp Value</description>
+				<posx>380</posx>
+				<posy>55</posy>
+				<height>30</height>
+				<width>110</width>
+				<label>$INFO[Weather.Temperature]</label>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font35</font>
+				<textcolor>white2</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label">
+				<description>Conditions Label</description>
+				<posx>120</posx>
+				<posy>85</posy>
+				<height>30</height>
+				<width>290</width>
+				<label>$INFO[Window(Weather).Property(Current.Condition)]</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>white2</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
 		</control>
 	</include>
 	<include name="SystemCard">

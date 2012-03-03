@@ -62,6 +62,7 @@
   <string id="31310">Set Smart Playlist Shortcut</string>
   <string id="31311">Set Button Label</string>
   <string id="31312">Set Button Icon</string>
+  <string id="31313">No Weather addon enabled go to Settings\Weather to enable weather forecast</string>
 
   <!-- Skin Fontsets -->
   <string id="31390">Skin default</string>
