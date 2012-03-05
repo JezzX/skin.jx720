@@ -1,3 +1,19 @@
+[B]Version 2.0.0[/B]
+
+- Added More codec flagging images to bring it up to sync with Confluence
+- Added the visible conditions needed in the shutdown menu for embedded systems
+- Added the _screenshots folder needed for eden web site
+- Fixed support for the new weather Plugin system
+- Removed different backgrounds for SettingsCategory.xml since its no longer possible to get to them from media windows
+- Fixed left hand side edge in settings vanished when window closed
+- Removed all traces of the VideoFiles window (Eden doesn't need it)
+- Added Spanish/strings.xml
+- Added More Channel Count flagging images
+- Merge pull request #1 from Machine-Sanctum/master (dutch Language file)
+- Added a new font set to use the default font in xbmc called "Arial based (best for Non-English)"
+- Added Korean language files thanks to xbmc forum user epoke
+- Added a bunch of language files thanks to xbmc forum users
+
 [B]Version 1.0.0[/B]
 
 - Took the skin out of alpha and gave it a version 1.0.0
