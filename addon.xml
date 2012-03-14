@@ -5,7 +5,7 @@
   name="JX 720"
   provider-name="Jezz_X">
   <requires>
-    <import addon="xbmc.gui" version="2.11"/>
+    <import addon="xbmc.gui" version="3.00"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
