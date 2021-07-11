@@ -247,13 +247,6 @@
 							<thumb>-</thumb>
 						</item>
 						<item>
-							<label>20077</label>
-							<label2>31406</label2>
-							<onclick>ActivateWindow(1200)</onclick>
-							<icon>special://skin/button_icons/icon-skin.png</icon>
-							<thumb>-</thumb>
-						</item>
-						<item>
 							<label>13005</label>
 							<label2>31407</label2>
 							<onclick>ActivateWindow(ShutdownMenu)</onclick>
