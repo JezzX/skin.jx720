@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog" id="144">
+    <include>dialogeffect</include>
+    <coordinates>
+        <system>1</system>
+        <posx>510</posx>
+        <posy>338</posy>
+    </coordinates>
+    <include>dialogeffect</include>
+    <controls>
+        <control type="image">
+            <description>Dialog Back</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>900</width>
+            <height>405</height>
+            <texture border="50,100,50,50">Dialog.png</texture>
+        </control>
+        <control type="label" id="1">
+            <description>Heading label</description>
+            <posx>75</posx>
+            <posy>75</posy>
+            <width>750</width>
+            <height>45</height>
+            <align>center</align>
+            <font>font16</font>
+            <label>22039</label>
+            <textcolor>orange</textcolor>
+            <shadowcolor>black</shadowcolor>
+        </control>
+        <control type="label" id="401">
+            <description>Song Number Label</description>
+            <posx>75</posx>
+            <posy>165</posy>
+            <width>750</width>
+            <height>60</height>
+            <font>font30</font>
+            <textcolor>white</textcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+        <control type="label" id="402">
+            <description>Song Name Label</description>
+            <posx>75</posx>
+            <posy>240</posy>
+            <width>750</width>
+            <height>60</height>
+            <font>font16</font>
+            <textcolor>grey2</textcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>
+    </controls>
+</window>
