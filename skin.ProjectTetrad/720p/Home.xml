@@ -76,42 +76,30 @@
 				<include>WeatherCard</include>
 			</control>
 			<control type="group">
-				<posx>510</posx>
-				<posy>100</posy>
-				<control type="label">
-					<description>date label</description>
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>380</width>
-					<height>30</height>
-					<align>center</align>
-					<aligny>center</aligny>
-					<font>font12</font>
-					<textcolor>white2</textcolor>
-					<label>$INFO[System.Date]</label>
-				</control>
+				<posx>500</posx>
+				<posy>65</posy>
 				<control type="image">
 					<description>Logo</description>
-					<posx>0</posx>
-					<posy>30</posy>
-					<width>380</width>
-					<height>70</height>
+					<posx>100</posx>
+					<posy>0</posy>
+					<width>180</width>
+					<height>180</height>
 					<aspectratio>keep</aspectratio>
-					<texture>xbmc_logo.png</texture>
+					<texture>kodi_logo.png</texture>
 				</control>
 				<control type="image">
 					<description>Logo Mirror</description>
-					<posx>0</posx>
-					<posy>90</posy>
-					<width>380</width>
-					<height>70</height>
+					<posx>100</posx>
+					<posy>125</posy>
+					<width>180</width>
+					<height>180</height>
 					<aspectratio>keep</aspectratio>
-					<texture diffuse="diffuse_mirror2.png" flipy="true">xbmc_logo.png</texture>
+					<texture diffuse="diffuse_mirror2.png" flipy="true">kodi_logo.png</texture>
 				</control>
 				<control type="image">
 					<description>Logo Shadow</description>
 					<posx>0</posx>
-					<posy>100</posy>
+					<posy>155</posy>
 					<width>380</width>
 					<height>16</height>
 					<texture>home_logoshadow.png</texture>
