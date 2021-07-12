@@ -1,26 +1,27 @@
+<!-- Adapted to 4K by CheddarGoblin -->
 <includes>
 <!-- Backgrounds -->
 	<include name="CommonVideoVizBackground">
 		<control type="videowindow">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<visible>Player.HasVideo + !Skin.HasSetting(Back_Video)</visible>
 		</control>
 		<control type="visualisation">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<visible>Player.HasAudio + !Skin.HasSetting(Back_Vis)</visible>
 		</control>
 		<control type="image">
 			<description>Background Fanart</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
 			<visible>!Skin.HasSetting(Back_Fanart) + ![Player.HasVideo + !Skin.HasSetting(Back_Video)] + ![Player.HasAudio + !Skin.HasSetting(Back_Vis)]</visible>
 			<fadetime>FanartCrossfadeTime</fadetime>
@@ -35,10 +36,10 @@
 			<include>VisibleFadeEffect</include>
 			<control type="image">
 				<description>Raindrop 5 animation</description>
-				<posx>200</posx>
-				<posy>150</posy>
-				<width>128</width>
-				<height>128</height>
+				<posx>600</posx>
+				<posy>450</posy>
+				<width>384</width>
+				<height>384</height>
 				<texture background="true">rain-drop.png</texture>
 				<visible>true</visible>
 				<colordiffuse>BBFFFFFF</colordiffuse>
@@ -50,10 +51,10 @@
 			</control>
 			<control type="image">
 				<description>Raindrop 1 animation</description>
-				<posx>550</posx>
-				<posy>200</posy>
-				<width>128</width>
-				<height>128</height>
+				<posx>1650</posx>
+				<posy>600</posy>
+				<width>384</width>
+				<height>384</height>
 				<texture background="true">rain-drop.png</texture>
 				<visible>true</visible>
 				<colordiffuse>55FFFFFF</colordiffuse>
@@ -65,10 +66,10 @@
 			</control>
 			<control type="image">
 				<description>Raindrop 2 animation</description>
-				<posx>900</posx>
-				<posy>130</posy>
-				<width>128</width>
-				<height>128</height>
+				<posx>2700</posx>
+				<posy>390</posy>
+				<width>384</width>
+				<height>384</height>
 				<texture background="true">rain-drop.png</texture>
 				<visible>true</visible>
 				<animation type="conditional" reversible="false" loop="true" condition="true">
@@ -79,10 +80,10 @@
 			</control>
 			<control type="image">
 				<description>Raindrop 3 animation</description>
-				<posx>800</posx>
-				<posy>500</posy>
-				<width>128</width>
-				<height>128</height>
+				<posx>2400</posx>
+				<posy>1500</posy>
+				<width>384</width>
+				<height>384</height>
 				<texture background="true">rain-drop.png</texture>
 				<visible>true</visible>
 				<colordiffuse>88FFFFFF</colordiffuse>
@@ -94,10 +95,10 @@
 			</control>
 			<control type="image">
 				<description>Raindrop 4 animation</description>
-				<posx>200</posx>
-				<posy>450</posy>
-				<width>128</width>
-				<height>128</height>
+				<posx>600</posx>
+				<posy>1350</posy>
+				<width>384</width>
+				<height>384</height>
 				<texture background="true">rain-drop.png</texture>
 				<visible>true</visible>
 				<colordiffuse>66FFFFFF</colordiffuse>
@@ -114,8 +115,8 @@
 			<description>Background Weather</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<texture background="true" fallback="special://skin/backgrounds/weather.png">$INFO[Skin.String(Background_Weather)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
@@ -126,8 +127,8 @@
 			<description>Background Apps</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<texture background="true" fallback="special://skin/backgrounds/apps.png">$INFO[Skin.String(Background_Apps)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
@@ -138,8 +139,8 @@
 			<description>Background Media</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<texture background="true" fallback="special://skin/backgrounds/media.png">$INFO[Skin.String(Background_Media)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
@@ -150,8 +151,8 @@
 			<description>Background System</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>1280</width>
-			<height>720</height>
+			<width>3840</width>
+			<height>2160</height>
 			<texture background="true" fallback="special://skin/backgrounds/system.png">$INFO[Skin.String(Background_System)]</texture>
 			<animation effect="fade" start="100" end="60" time="200" condition="[!IsEmpty(ListItem.Property(Fanart_Image)) + !Skin.HasSetting(Back_Fanart)] | [Player.HasVideo + !Skin.HasSetting(Back_Video)] | [Player.HasAudio + !Skin.HasSetting(Back_Vis)]">Conditional</animation>
 		</control>
@@ -162,19 +163,19 @@
 	<include name="CommonWeatherBlackwash">
 		<control type="image">
 			<description>Background</description>
-			<posx>55</posx>
+			<posx>165</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>55r</posx>
+			<posx>165r</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
 			<animation effect="slide" start="-150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
@@ -182,10 +183,10 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>105</posx>
+			<posx>315</posx>
 			<posy>0</posy>
-			<width>1120</width>
-			<height>720</height>
+			<width>3360</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
 			<animation effect="zoom" start="105,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
@@ -195,10 +196,10 @@
 	<include name="CommonAppsBlackwash">
 		<control type="image">
 			<description>Background</description>
-			<posx>55</posx>
+			<posx>165</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
 			<animation effect="slide" start="50,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
@@ -206,10 +207,10 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>55r</posx>
+			<posx>165r</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
 			<animation effect="slide" start="-100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
@@ -217,10 +218,10 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>105</posx>
+			<posx>315</posx>
 			<posy>0</posy>
-			<width>1120</width>
-			<height>720</height>
+			<width>3360</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
 			<animation effect="zoom" start="155,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
@@ -230,10 +231,10 @@
 	<include name="CommonMediaBlackwash">
 		<control type="image">
 			<description>Background</description>
-			<posx>55</posx>
+			<posx>315</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
 			<animation effect="slide" start="100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
@@ -241,10 +242,10 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>55r</posx>
+			<posx>165r</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
 			<animation effect="slide" start="-50,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
@@ -252,10 +253,10 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>105</posx>
+			<posx>315</posx>
 			<posy>0</posy>
-			<width>1120</width>
-			<height>720</height>
+			<width>3360</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
 			<animation effect="zoom" start="205,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
@@ -265,10 +266,10 @@
 	<include name="CommonSystemBlackwash">
 		<control type="image">
 			<description>Background</description>
-			<posx>55</posx>
+			<posx>165</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
 			<animation effect="slide" start="150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
@@ -276,19 +277,19 @@
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>55r</posx>
+			<posx>165r</posx>
 			<posy>0</posy>
-			<width>50</width>
-			<height>720</height>
+			<width>150</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
 		</control>
 		<control type="image">
 			<description>Background</description>
-			<posx>105</posx>
+			<posx>315</posx>
 			<posy>0</posy>
-			<width>1120</width>
-			<height>720</height>
+			<width>3360</width>
+			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
 			<animation effect="zoom" start="255,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
@@ -300,26 +301,26 @@
 	<include name="WeatherToSubBlades">
 		<!-- Left side -->
 		<control type="image">
-			<posx>-120</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-360</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
 		</control>
 		<control type="image">
 			<posx>0</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 		</control>
 		<control type="label">
 			<description>Weather Label</description>
 			<label>31004</label>
-			<posx>90</posx>
-			<posy>170</posy>
+			<posx>270</posx>
+			<posy>510</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -328,18 +329,18 @@
 		</control>
 		<!-- Right side -->
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
-			<posx>-35r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-105r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size1-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
@@ -354,8 +355,8 @@
 		<control type="label">
 			<description>System Label</description>
 			<label>31003</label>
-			<posx>-100r</posx>
-			<posy>210</posy>
+			<posx>-300r</posx>
+			<posy>630</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -371,10 +372,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>15r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>45r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
@@ -389,8 +390,8 @@
 		<control type="label">
 			<description>Media Label</description>
 			<label>31001</label>
-			<posx>-50r</posx>
-			<posy>200</posy>
+			<posx>-150r</posx>
+			<posy>600</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -406,10 +407,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>65r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>195r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
@@ -425,7 +426,7 @@
 			<description>Apps Label</description>
 			<label>31002</label>
 			<posx>0r</posx>
-			<posy>190</posy>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -441,10 +442,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(Weather)">WindowClose</animation>
@@ -454,18 +455,18 @@
 	<include name="AppsToSubBlades">
 		<!-- Left side -->
 		<control type="image">
-			<posx>-110</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-330</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left.png</texture>
 		</control>
 		<control type="image">
-			<posx>-50</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-150</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
@@ -480,8 +481,8 @@
 		<control type="label">
 			<description>weather Label</description>
 			<label>31004</label>
-			<posx>40</posx>
-			<posy>190</posy>
+			<posx>120</posx>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -497,19 +498,19 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-120</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-360</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<posx>-0</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
@@ -524,8 +525,8 @@
 		<control type="label">
 			<description>Applications Label</description>
 			<label>31002</label>
-			<posx>90</posx>
-			<posy>170</posy>
+			<posx>270</posx>
+			<posy>510</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -542,18 +543,18 @@
 		</control>
 		<!-- Right side -->
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
-			<posx>15r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>45r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
@@ -568,8 +569,8 @@
 		<control type="label">
 			<description>System Label</description>
 			<label>31003</label>
-			<posx>-50r</posx>
-			<posy>200</posy>
+			<posx>-150r</posx>
+			<posy>600</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -585,10 +586,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>65r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>195r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
@@ -604,7 +605,7 @@
 			<description>Media Label</description>
 			<label>31001</label>
 			<posx>0r</posx>
-			<posy>190</posy>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -620,10 +621,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
@@ -633,18 +634,18 @@
 	<include name="MediaToSubBlades">
 		<!-- Left side -->
 		<control type="image">
-			<posx>-110</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-330</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left.png</texture>
 		</control>
 		<control type="image">
-			<posx>-100</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-300</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
@@ -659,8 +660,8 @@
 		<control type="label">
 			<description>weather Label</description>
 			<label>31004</label>
-			<posx>-10</posx>
-			<posy>200</posy>
+			<posx>-30</posx>
+			<posy>600</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -676,10 +677,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-50</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-150</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
@@ -694,8 +695,8 @@
 		<control type="label">
 			<description>Applications Label</description>
 			<label>31002</label>
-			<posx>40</posx>
-			<posy>190</posy>
+			<posx>120</posx>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -711,19 +712,19 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-120</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-360</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<posx>0</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
@@ -738,8 +739,8 @@
 		<control type="label">
 			<description>Media Label</description>
 			<label>31001</label>
-			<posx>90</posx>
-			<posy>170</posy>
+			<posx>270</posx>
+			<posy>510</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -756,18 +757,18 @@
 		</control>
 		<!-- Right side -->
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 		</control>
 		<control type="image">
-			<posx>65r</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>195r</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
@@ -783,7 +784,7 @@
 			<description>System Label</description>
 			<label>31003</label>
 			<posx>0r</posx>
-			<posy>190</posy>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -799,10 +800,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
@@ -812,19 +813,19 @@
 	<include name="SettingsToSubBlades">
 		<!-- Left side -->
 		<control type="image">
-			<posx>-120</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-360</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" start="0" end="100" time="0" delay="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
 		</control>
 		<control type="image">
-			<posx>-150</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-450</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size1-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
@@ -839,8 +840,8 @@
 		<control type="label">
 			<description>weather Label</description>
 			<label>31004</label>
-			<posx>-60</posx>
-			<posy>210</posy>
+			<posx>-180</posx>
+			<posy>630</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -856,10 +857,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-100</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-300</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
@@ -874,8 +875,8 @@
 		<control type="label">
 			<description>Apps Label</description>
 			<label>31002</label>
-			<posx>-10</posx>
-			<posy>200</posy>
+			<posx>-30</posx>
+			<posy>600</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -891,10 +892,10 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-50</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posx>-150</posx>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
@@ -909,8 +910,8 @@
 		<control type="label">
 			<description>Media Label</description>
 			<label>31001</label>
-			<posx>40</posx>
-			<posy>190</posy>
+			<posx>120</posx>
+			<posy>570</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -926,19 +927,19 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>-120</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>-360</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-left1.png</texture>
 			<animation effect="fade" start="100" end="0" time="100" delay="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<posx>0</posx>
-			<posy>-40</posy>
-			<width>115</width>
-			<height>800</height>
+			<posy>-120</posy>
+			<width>345</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
@@ -953,8 +954,8 @@
 		<control type="label">
 			<description>System Label</description>
 			<label>31003</label>
-			<posx>90</posx>
-			<posy>170</posy>
+			<posx>270</posx>
+			<posy>510</posy>
 			<font>font16</font>
 			<textcolor>black</textcolor>
 			<align>left</align>
@@ -971,41 +972,41 @@
 		</control>
 		<!-- Right side -->
 		<control type="group">
-			<posx>15r</posx>
-			<posy>232</posy>
+			<posx>45r</posx>
+			<posy>696</posy>
 			<animation effect="slide" start="-100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="!Window.Previous(AppearanceSettings)">WindowOpen</animation>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>74</width>
-				<height>256</height>
+				<width>222</width>
+				<height>768</height>
 				<aspectratio>stretch</aspectratio>
 				<texture border="25,5,5,5">power-panel.png</texture>
 			</control>
 			<control type="image">
 				<description>Icon</description>
-				<posx>18</posx>
-				<posy>50</posy>
-				<width>40</width>
-				<height>40</height>
+				<posx>54</posx>
+				<posy>150</posy>
+				<width>120</width>
+				<height>120</height>
 				<aspectratio>keep</aspectratio>
 				<texture>special://skin/button_icons/icon-power.png</texture>
 			</control>
 			<control type="image">
 				<description>Icon</description>
-				<posx>18</posx>
-				<posy>165</posy>
-				<width>40</width>
-				<height>40</height>
+				<posx>54</posx>
+				<posy>495</posy>
+				<width>120</width>
+				<height>120</height>
 				<aspectratio>keep</aspectratio>
 				<texture>special://skin/button_icons/icon-favourites.png</texture>
 			</control>
 		</control>
 		<control type="image">
-			<posx>55r</posx>
-			<posy>-40</posy>
-			<width>180</width>
-			<height>800</height>
+			<posx>165r</posx>
+			<posy>-120</posy>
+			<width>540</width>
+			<height>2400</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-runner-right.png</texture>
 		</control>
