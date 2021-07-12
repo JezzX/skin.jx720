@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.tetrad"
+  id="skin.ProjectTetrad"
   version="0.0.1"
-  name="Tetrad"
+  name="ProjectTetrad"
   provider-name="CheddarGoblin">
   <requires>
+<!-- actually xbmc.gui version 2.00  --> 
     <import addon="xbmc.gui" version="3.00"/>
   </requires>
   <extension
@@ -15,8 +16,9 @@
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">MC360... JX720... Tetrad</summary>
-    <description lang="en">This is a port of an old XBMC skin from 2012 bringing it up-to-date with latest stable Kodi. Design based off the original Xbox 360 dashboard and the TeamBlackbolt MC360 skin (most main graphics originally by team blackbolt).</description>
+    <summary lang="en">MC360... JX720... ProjectTetrad</summary>
+    <description lang="en">This is based off an old XBMC skin from 2012 hopefully improving and bringing it up-to-date with latest stable Kodi. 
+	Design based off the original Xbox 360 dashboard and the Jezz_X skin JX720 (most main graphics originally by Blackbolt from the MC360 project).</description>
     <platform>all</platform>
   </extension>
 </addon>
