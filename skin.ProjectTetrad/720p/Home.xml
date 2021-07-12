@@ -255,13 +255,6 @@
 							<visible>!Skin.HasSetting(MediaBlade_HideTVShows)</visible>
 						</item>
 						<item>
-							<label>$LOCALIZE[17029]</label>
-							<onclick>ActivateWindow(TVChannels)</onclick>
-							<icon>special://skin/button_icons/icon-pictures.png</icon>
-							<thumb>-</thumb>
-							<visible>!Skin.HasSetting(MediaBlade_HidePictures)</visible>
-						</item>
-						<item>
 							<label>$INFO[Skin.String(MediaBlade_NameSmartPlaylist1)]</label>
 							<onclick>ActivateWindow(Videos,$INFO[Skin.String(MediaBlade_LinkSmartPlaylist1)],return)</onclick>
 							<icon>special://skin/button_icons/icon-playlistvideo.png</icon>
