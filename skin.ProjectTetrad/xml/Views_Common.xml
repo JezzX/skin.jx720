@@ -1,3 +1,4 @@
+<!-- Adapted to 4K by CheddarGoblin -->
 <includes>
 	<include name="ListViewCommons">
 		<control type="panel" id="50">
@@ -749,15 +750,12 @@
 				<scrollout>false</scrollout>
 				<pauseatend>2000</pauseatend>
 			</control>
-			
-			
-			
 			<control type="textbox" id="400">
 				<description>textarea</description>
 				<posx>0</posx>
-				<posy>70</posy>
-				<width>350</width>
-				<height>380</height>
+				<posy>210</posy>
+				<width>1050</width>
+				<height>1140</height>
 				<font>font12</font>
 				<label>$INFO[ListItem.Plot]</label>
 				<textcolor>white</textcolor>
@@ -767,14 +765,14 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>730</posx>
-			<posy>10</posy>
+			<posx>2190</posx>
+			<posy>30</posy>
 			<visible>Control.IsVisible(55) + Container.Content(Addons)</visible>
 			<control type="fadelabel">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>350</width>
-				<height>20</height>
+				<width>1050</width>
+				<height>60</height>
 				<font>font16</font>
 				<textcolor>orange</textcolor>
 				<shadowcolor>black</shadowcolor>
@@ -787,9 +785,9 @@
 			<control type="textbox" id="400">
 				<description>textarea</description>
 				<posx>0</posx>
-				<posy>40</posy>
-				<width>350</width>
-				<height>410</height>
+				<posy>120</posy>
+				<width>1050</width>
+				<height>1230</height>
 				<font>font12</font>
 				<label>$INFO[ListItem.Property(Addon.Description)]</label>
 				<textcolor>white</textcolor>
@@ -799,14 +797,14 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>730</posx>
-			<posy>10</posy>
+			<posx>2190</posx>
+			<posy>30</posy>
 			<visible>Control.IsVisible(55) + Container.Content(Albums)</visible>
 			<control type="fadelabel">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>350</width>
-				<height>20</height>
+				<width>1050</width>
+				<height>60</height>
 				<font>font16</font>
 				<textcolor>orange</textcolor>
 				<shadowcolor>black</shadowcolor>
@@ -819,9 +817,9 @@
 			<control type="textbox" id="400">
 				<description>textarea</description>
 				<posx>0</posx>
-				<posy>40</posy>
-				<width>350</width>
-				<height>410</height>
+				<posy>120</posy>
+				<width>1050</width>
+				<height>1230</height>
 				<font>font12</font>
 				<label>$INFO[ListItem.Property(Album_Description)]</label>
 				<textcolor>white</textcolor>
@@ -831,14 +829,14 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>730</posx>
-			<posy>10</posy>
+			<posx>2190</posx>
+			<posy>30</posy>
 			<visible>Control.IsVisible(55) + Container.Content(Artists)</visible>
 			<control type="fadelabel">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>350</width>
-				<height>20</height>
+				<width>1050</width>
+				<height>60</height>
 				<font>font16</font>
 				<textcolor>orange</textcolor>
 				<shadowcolor>black</shadowcolor>
@@ -851,9 +849,9 @@
 			<control type="textbox" id="400">
 				<description>textarea</description>
 				<posx>0</posx>
-				<posy>40</posy>
-				<width>350</width>
-				<height>410</height>
+				<posy>120</posy>
+				<width>1050</width>
+				<height>1230</height>
 				<font>font12</font>
 				<label>$INFO[ListItem.Property(Artist_Description)]</label>
 				<textcolor>white</textcolor>
@@ -863,14 +861,14 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>730</posx>
-			<posy>10</posy>
+			<posx>2190</posx>
+			<posy>30</posy>
 			<visible>Control.IsVisible(55) + Container.Content(LiveTV)</visible>
 			<control type="fadelabel">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>350</width>
-				<height>20</height>
+				<width>1050</width>
+				<height>60</height>
 				<font>font13</font>
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
@@ -882,9 +880,9 @@
 			</control>
 			<control type="fadelabel">
 				<posx>0</posx>
-				<posy>35</posy>
-				<width>350</width>
-				<height>20</height>
+				<posy>105</posy>
+				<width>1050</width>
+				<height>60</height>
 				<font>font16</font>
 				<textcolor>orange</textcolor>
 				<shadowcolor>black</shadowcolor>
@@ -897,9 +895,9 @@
 			<control type="textbox" id="400">
 				<description>textarea</description>
 				<posx>0</posx>
-				<posy>70</posy>
-				<width>350</width>
-				<height>380</height>
+				<posy>210</posy>
+				<width>1050</width>
+				<height>1140</height>
 				<font>font12</font>
 				<label>$INFO[ListItem.Plot]</label>
 				<textcolor>white</textcolor>
