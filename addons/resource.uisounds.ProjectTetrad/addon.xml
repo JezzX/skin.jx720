@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.ProjectTetrad" version="0.0.1" name="ProjectTetrad UI Sounds" provider-name="CheddarGoblin">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">ProjectTetrad UI sounds</summary>
+    <description lang="en">ProjectTetrad UI sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
