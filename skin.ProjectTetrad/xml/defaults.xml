@@ -8,14 +8,14 @@
 	</default>
 	<default type="label">
 		<posx>240</posx>
-		<posy>120</posy>
+		<posy>180</posy>
 		<label>-</label>
 		<font>font13</font>
 		<textcolor>white</textcolor>
 	</default>
 	<default type="fadelabel">
 		<posx>240</posx>
-		<posy>120</posy>
+		<posy>180</posy>
 		<font>font13</font>
 		<textcolor>white</textcolor>
 	</default>
