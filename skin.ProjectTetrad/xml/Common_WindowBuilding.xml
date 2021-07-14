@@ -178,8 +178,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
-			<animation effect="slide" start="-150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="-150,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Weather)">WindowClose</animation>
+			<animation effect="slide" start="-450,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-450,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Weather)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -189,8 +189,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
-			<animation effect="zoom" start="105,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
-			<animation effect="zoom" start="105,0,1120,720" end="105,0,970,720" time="HomeBladeAnimationSpeed" condition="Window.Next(Weather)">WindowClose</animation>
+			<animation effect="zoom" start="315,0,2910,2160" end="315,0,1120,2160" time="HomeBladeAnimationSpeed" condition="Window.Previous(Weather)">WindowOpen</animation>
+			<animation effect="zoom" start="315,0,1120,2160" end="315,0,2910,2160" time="HomeBladeAnimationSpeed" condition="Window.Next(Weather)">WindowClose</animation>
 		</control>
 	</include>
 	<include name="CommonAppsBlackwash">
@@ -202,8 +202,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
-			<animation effect="slide" start="50,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="50,0" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
+			<animation effect="slide" start="150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="150,0" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -213,8 +213,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
-			<animation effect="slide" start="-100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="-100,0" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
+			<animation effect="slide" start="-300,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-300,0" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -224,10 +224,14 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
-			<animation effect="zoom" start="155,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
-			<animation effect="zoom" start="105,0,1120,720" end="155,0,970,720" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
+			<animation effect="zoom" start="465,0,2910,2160" end="315,0,1120,2160" time="HomeBladeAnimationSpeed" condition="Window.Previous(1111)">WindowOpen</animation>
+			<animation effect="zoom" start="315,0,1120,2160" end="465,0,2910,2160" time="HomeBladeAnimationSpeed" condition="Window.Next(1111)">WindowClose</animation>
 		</control>
 	</include>
+	
+	
+	
+	
 	<include name="CommonMediaBlackwash">
 		<control type="image">
 			<description>Background</description>
@@ -237,8 +241,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
-			<animation effect="slide" start="100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="100,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
+			<animation effect="slide" start="300,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="300,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -248,8 +252,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-right-ws.png</texture>
-			<animation effect="slide" start="-50,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="-50,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
+			<animation effect="slide" start="-150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="-150,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -259,8 +263,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
-			<animation effect="zoom" start="205,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
-			<animation effect="zoom" start="105,0,1120,720" end="205,0,970,720" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
+			<animation effect="zoom" start="615,0,2910,2160" end="315,0,1120,2160" time="HomeBladeAnimationSpeed" condition="Window.Previous(Home)">WindowOpen</animation>
+			<animation effect="zoom" start="315,0,1120,2160" end="615,0,2910,2160" time="HomeBladeAnimationSpeed" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 	</include>
 	<include name="CommonSystemBlackwash">
@@ -272,8 +276,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-left-ws.png</texture>
-			<animation effect="slide" start="150,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="150,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
+			<animation effect="slide" start="450,0" end="0,0" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
+			<animation effect="slide" start="0,0" end="450,0" time="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
 		</control>
 		<control type="image">
 			<description>Background</description>
@@ -292,8 +296,8 @@
 			<height>2160</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>background-overlay-blackwash-centertile-ws.png</texture>
-			<animation effect="zoom" start="255,0,970,720" end="105,0,1120,720" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
-			<animation effect="zoom" start="105,0,1120,720" end="255,0,970,720" time="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
+			<animation effect="zoom" start="765,0,2910,2160" end="315,0,3360,2160" time="HomeBladeAnimationSpeed" condition="Window.Previous(Settings)">WindowOpen</animation>
+			<animation effect="zoom" start="315,0,3360,2160" end="765,0,2910,2160" time="HomeBladeAnimationSpeed" condition="Window.Next(Settings)">WindowClose</animation>
 		</control>
 	</include>
 
@@ -344,12 +348,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size1-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -363,12 +367,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -379,12 +383,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -398,12 +402,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -414,12 +418,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -433,12 +437,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Weather)">
-				<effect type="slide" start="-150,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-450,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Weather)">
-				<effect type="slide" start="0,0" end="-160,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-480,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -470,12 +474,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="50,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="150,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -489,12 +493,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="50,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="150,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -514,12 +518,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="50,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="150,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -533,12 +537,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="50,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="150,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="60,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="180,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<!-- Right side -->
@@ -558,12 +562,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="-100,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="100,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-300,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="300,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -577,12 +581,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="-100,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="100,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-300,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="300,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -593,12 +597,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="-100,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-300,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -612,12 +616,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(1111)">
-				<effect type="slide" start="-100,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-300,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(1111)">
-				<effect type="slide" start="0,0" end="-110,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-330,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -649,12 +653,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -668,12 +672,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -684,12 +688,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -703,12 +707,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -728,12 +732,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -747,12 +751,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="100,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-110,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="300,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-330,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="110,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="330,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<!-- Right side -->
@@ -772,12 +776,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-right-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="-50,0" end="-60,0" time="100" />
-				<effect type="slide" start="0,0" end="60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-150,0" end="-180,0" time="100" />
+				<effect type="slide" start="0,0" end="180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="-60,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-180,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -791,12 +795,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Home)">
-				<effect type="slide" start="-50,0" end="-60,0" time="100" />
-				<effect type="slide" start="0,0" end="60,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="-150,0" end="-180,0" time="100" />
+				<effect type="slide" start="0,0" end="180,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Home)">
-				<effect type="slide" start="0,0" end="-60,0" time="100" />
-				<effect type="slide" start="0,0" end="10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="-180,0" time="100" />
+				<effect type="slide" start="0,0" end="30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -829,12 +833,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size1-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -848,12 +852,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -864,12 +868,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size2-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -883,12 +887,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -899,12 +903,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size3-left-NF.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -918,12 +922,12 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="image">
@@ -943,12 +947,12 @@
 			<aspectratio>stretch</aspectratio>
 			<texture>blades-size4-header.png</texture>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<control type="label">
@@ -962,19 +966,19 @@
 			<aligny>middle</aligny>
 			<angle>270</angle>
 			<animation type="WindowOpen" condition="Window.Previous(Settings)">
-				<effect type="slide" start="150,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-160,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="450,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-480,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 			<animation type="WindowClose" condition="Window.Next(Settings)">
-				<effect type="slide" start="0,0" end="160,0" time="100" />
-				<effect type="slide" start="0,0" end="-10,0" delay="100" time="HomeBladeAnimationSpeed" />
+				<effect type="slide" start="0,0" end="480,0" time="100" />
+				<effect type="slide" start="0,0" end="-30,0" delay="100" time="HomeBladeAnimationSpeed" />
 			</animation>
 		</control>
 		<!-- Right side -->
 		<control type="group">
 			<posx>45r</posx>
 			<posy>696</posy>
-			<animation effect="slide" start="-100,0" end="0,0" time="HomeBladeAnimationSpeed" condition="!Window.Previous(AppearanceSettings)">WindowOpen</animation>
+			<animation effect="slide" start="-300,0" end="0,0" time="HomeBladeAnimationSpeed" condition="!Window.Previous(AppearanceSettings)">WindowOpen</animation>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
