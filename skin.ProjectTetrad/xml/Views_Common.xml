@@ -232,7 +232,7 @@
 					<texture>$INFO[ListItem.Overlay]</texture>
 				</control>
 			</itemlayout>
-			<focusedlayout  condition="Container.Content(Movies) | Container.Content(Seasons)" height="240" width="154">
+			<focusedlayout  condition="Container.Content(Movies) | Container.Content(Seasons)" height="720" width="462">
 				<control type="image">
 					<posx>3</posx>
 					<posy>3</posy>
@@ -476,8 +476,8 @@
 					<height>105</height>
 					<aspectratio>keep</aspectratio>
 					<texture>$INFO[ListItem.Overlay]</texture>
-					<animation effect="slide" start="0,0" end="30,30" time="200">Focus</animation>
-					<animation effect="slide" end="0,0" start="30,30" time="200">UnFocus</animation>
+					<animation effect="slide" start="0,0" end="90,90" time="200">Focus</animation>
+					<animation effect="slide" end="0,0" start="90,90" time="200">UnFocus</animation>
 				</control>
 			</focusedlayout>
 		</control>
