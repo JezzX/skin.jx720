@@ -17,8 +17,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">MC360... JX720... ProjectTetrad</summary>
-    <description lang="en">This is based off an old XBMC skin from 2012 hopefully improving and bringing it up-to-date with latest stable Kodi. 
-	Design based off the original Xbox 360 dashboard and the Jezz_X skin JX720 (most main graphics originally by Blackbolt from the MC360 project).</description>
+    <description lang="en">ProjectTetrad is a fork based off an old XBMC skin from 2012 called JX720 (created by Jezz_X). 
+	It aims for native 4K and UltraWide resolution support and to bring it up-to-date and compatable with latest stable Kodi. 
+	Design is based off of the original Xbox 360 dashboard.</description>
     <platform>all</platform>
   </extension>
 </addon>
