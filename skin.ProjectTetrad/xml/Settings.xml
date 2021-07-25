@@ -26,15 +26,15 @@
 				<posx>615</posx>
 				<posy>0</posy>
 				<width>150</width>
-				<height>720</height>
+				<height>2160</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>background-overlay-blackwash-left-ws.png</texture>
 			</control>
 			<control type="image">
 				<description>Background</description>
-				<posx>55r</posx>
+				<posx>165r</posx>
 				<posy>0</posy>
-				<width>50</width>
+				<width>150</width>
 				<height>2160</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>background-overlay-blackwash-right-ws.png</texture>
@@ -394,7 +394,7 @@
 			<control type="image">
 				<posx>300</posx>
 				<posy>-120</posy>
-				<width>115</width>
+				<width>345</width>
 				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-left-NF.png</texture>
