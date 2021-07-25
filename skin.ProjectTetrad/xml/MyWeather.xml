@@ -911,7 +911,7 @@
 			<height>2160</height>
 			<texturefocus>blades-blank-right.png</texturefocus>
 			<onfocus>ActivateWindow(1111)</onfocus>
-			<animation effect="slide" end="-1280,0" time="HomeBladeAnimationSpeed">focus</animation>
+			<animation effect="slide" end="-3840,0" time="HomeBladeAnimationSpeed">focus</animation>
 			<hitrect x="-30" y="-30" w="3" h="3" />
 		</control>
 
