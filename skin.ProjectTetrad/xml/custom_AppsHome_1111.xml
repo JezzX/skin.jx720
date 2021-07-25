@@ -1,4 +1,4 @@
-<!-- Created by Jezz_X and adapted to 4K by CheddarGoblin -->
+<!-- Created by Jezz_X. Forked maintained and updated by CheddarGoblin -->
 <window id="1111">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<previouswindow>1111</previouswindow>
@@ -298,23 +298,19 @@
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-left.png</texture>
 			</control>
-			
-			
-			
-			
 			<control type="image">
 				<posx>0</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-left-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>weather Label</description>
 				<label>31004</label>
-				<posx>90</posx>
-				<posy>190</posy>
+				<posx>270</posx>
+				<posy>570</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -322,18 +318,18 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>50</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>150</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size4-header.png</texture>
 			</control>
 			<control type="label">
 				<description>Applications Label</description>
 				<label>31002</label>
-				<posx>140</posx>
-				<posy>170</posy>
+				<posx>420</posx>
+				<posy>510</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -342,26 +338,26 @@
 			</control>
 			<!-- Right side -->
 			<control type="image">
-				<posx>65r</posx>
-				<posy>-40</posy>
-				<width>180</width>
-				<height>800</height>
+				<posx>195r</posx>
+				<posy>-120</posy>
+				<width>540</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-right.png</texture>
 			</control>
 			<control type="image">
-				<posx>115r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>345r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size2-right-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>System Label</description>
 				<label>31003</label>
-				<posx>50r</posx>
-				<posy>200</posy>
+				<posx>150r</posx>
+				<posy>600</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -369,18 +365,18 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>165r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>495r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-right-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>Media Label</description>
 				<label>31001</label>
-				<posx>100r</posx>
-				<posy>190</posy>
+				<posx>300r</posx>
+				<posy>570</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -394,26 +390,26 @@
 			<visible>Control.HasFocus(2)</visible>
 			<!-- Left side -->
 			<control type="image">
-				<posx>-110</posx>
-				<posy>-40</posy>
-				<width>180</width>
-				<height>800</height>
+				<posx>-330</posx>
+				<posy>-120</posy>
+				<width>540</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-left.png</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size2-left-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>weather Label</description>
 				<label>31004</label>
-				<posx>90</posx>
-				<posy>200</posy>
+				<posx>270</posx>
+				<posy>600</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -421,18 +417,18 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>50</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>150</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-left-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>Applications Label</description>
 				<label>31002</label>
-				<posx>140</posx>
-				<posy>190</posy>
+				<posx>420</posx>
+				<posy>570</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -440,10 +436,10 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>100</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>300</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size4-header.png</texture>
 				<visible>Control.HasFocus(2)</visible>
@@ -452,8 +448,8 @@
 			<control type="label">
 				<description>Media Label</description>
 				<label>31001</label>
-				<posx>190</posx>
-				<posy>170</posy>
+				<posx>570</posx>
+				<posy>510</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -464,26 +460,26 @@
 			</control>
 			<!-- Right side -->
 			<control type="image">
-				<posx>65r</posx>
-				<posy>-40</posy>
-				<width>180</width>
-				<height>800</height>
+				<posx>195r</posx>
+				<posy>-120</posy>
+				<width>540</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-right.png</texture>
 			</control>
 			<control type="image">
-				<posx>115r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>345r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-right-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>System Label</description>
 				<label>31003</label>
-				<posx>50r</posx>
-				<posy>190</posy>
+				<posx>150r</posx>
+				<posy>570</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -492,31 +488,37 @@
 			</control>
 		</control>
 
+
+
+
+
+
+
 		<control type="group">
 			<description>Weather Blades</description>
 			<visible>Control.HasFocus(1)</visible>
 			<!-- Left side -->
 			<control type="image">
-				<posx>-110</posx>
-				<posy>-40</posy>
-				<width>180</width>
-				<height>800</height>
+				<posx>-330</posx>
+				<posy>-120</posy>
+				<width>540</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-left.png</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size4-header.png</texture>
 			</control>
 			<control type="label">
 				<description>Weather Label</description>
 				<label>31004</label>
-				<posx>90</posx>
-				<posy>170</posy>
+				<posx>270</posx>
+				<posy>510</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -525,26 +527,26 @@
 			</control>
 			<!-- Right side -->
 			<control type="image">
-				<posx>65r</posx>
-				<posy>-40</posy>
-				<width>180</width>
-				<height>800</height>
+				<posx>195r</posx>
+				<posy>-120</posy>
+				<width>540</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-runner-right.png</texture>
 			</control>
 			<control type="image">
-				<posx>115r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>345r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size1-right-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>System Label</description>
 				<label>31003</label>
-				<posx>50r</posx>
-				<posy>210</posy>
+				<posx>150r</posx>
+				<posy>630</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -552,18 +554,18 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>165r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>495r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size2-right-NF.png</texture>
 			</control>
 			<control type="label">
 				<description>Media Label</description>
 				<label>31001</label>
-				<posx>100r</posx>
-				<posy>200</posy>
+				<posx>300r</posx>
+				<posy>600</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>
@@ -571,10 +573,10 @@
 				<angle>270</angle>
 			</control>
 			<control type="image">
-				<posx>215r</posx>
-				<posy>-40</posy>
-				<width>115</width>
-				<height>800</height>
+				<posx>645r</posx>
+				<posy>-120</posy>
+				<width>345</width>
+				<height>2400</height>
 				<aspectratio>stretch</aspectratio>
 				<texture>blades-size3-right-NF.png</texture>
 				<visible>Control.HasFocus(1)</visible>
@@ -583,8 +585,8 @@
 			<control type="label">
 				<description>Apps Label</description>
 				<label>31002</label>
-				<posx>150r</posx>
-				<posy>190</posy>
+				<posx>450r</posx>
+				<posy>570</posy>
 				<font>font16</font>
 				<textcolor>black</textcolor>
 				<align>left</align>

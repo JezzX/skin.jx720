@@ -1,4 +1,4 @@
-<!-- Adapted to 4K by CheddarGoblin -->
+<!-- Created by Jezz_X. Forked maintained and updated by CheddarGoblin -->
 <includes>
 	<include name="ListViewCommons">
 		<control type="panel" id="50">
